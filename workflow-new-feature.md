@@ -12,8 +12,7 @@
 │                                          │
 │ Prompt:                                  │
 │                                          │
-│ "Lee:                                    │
-│ ~/AI-Standards/hermes-master.md          │
+│ "Lee hermes-master.md.                   │
 │                                          │
 │ Inicializa el proyecto.                  │
 │                                          │
@@ -54,6 +53,10 @@
 │                                          │
 │ Hazme las preguntas necesarias para      │
 │ comprender completamente la necesidad.   │
+│                                          │
+│ Si crees que ya tienes información       │
+│ suficiente, solicita autorización para   │
+│ generar el resumen funcional.            │
 │                                          │
 │ El objetivo NO es programar.             │
 │ El objetivo NO es crear OpenSpec aún.    │
@@ -162,32 +165,45 @@
 └─────────────┬────────────┘   └──────────────┬───────────────┘
               │                               ▼
               └────────── vuelve a 5 ┌──────────────────────────────┐
-                                     │ 12. HERMES CREA RAMA GIT     │
-                                     │                              │
-                                     │ Verifica:                    │
-                                     │ - git status                 │
-                                     │ - rama actual                │
-                                     │                              │
-                                     │ Crea rama:                   │
-                                     │                              │
-                                     │ feature/nombre-feature       │
-                                     │ bugfix/nombre-bug            │
-                                     │ hotfix/nombre-hotfix         │
-                                     │ refactor/nombre-refactor     │
-                                     │                              │
-                                     │ No trabajar sobre main.      │
-                                     └──────────────┬───────────────┘
-                                                    ▼
-                                     ┌──────────────────────────────┐
-                                     │ 13. JORGE AUTORIZA           │
-                                     │ CREAR OPENSPEC               │
-                                     │                              │
-                                     │ Prompt:                      │
-                                     │                              │
-                                     │ "OK. Genera OpenSpec a       │
-                                     │ partir del resumen           │
-                                     │ funcional aprobado."         │
-                                     └──────────────┬───────────────┘
+                                     │ 12. HERMES PROPONE Y CREA RAMA GIT       │
+                                     │                                          │
+                                     │ A partir del resumen funcional aprobado, │
+                                     │ Hermes debe proponer un nombre de rama.  │
+                                     │                                          │
+                                     │ Ejemplos:                                │
+                                     │                                          │
+                                     │ feature/propinas                         │
+                                     │ feature/reservas-online                  │
+                                     │ bugfix/error-login                       │
+                                     │ hotfix/facturacion-produccion            │
+                                     │ refactor/simplifica-checkout             │
+                                     │                                          │
+                                     │ Hermes debe mostrar:                     │
+                                     │                                          │
+                                     │ "Nombre de rama propuesto:               │
+                                     │ feature/[nombre-feature]                 │
+                                     │                                          │
+                                     │ ¿Confirmas que cree esta rama?"          │
+                                     └────────────────────┬─────────────────────┘
+                                                          ▼
+                                                ┌──────────────────────┐
+                                                │ ¿Jorge aprueba rama? │
+                                                └──────────┬───────────┘
+                                                           │
+                                                ┌──────────┴──────────┐
+                                                │                     │
+                                               NO                    SÍ
+                                                │                     │
+                                                ▼                     ▼
+                                     ┌──────────────────────────┐   ┌──────────────────────────────┐
+                                     │ JORGE AJUSTA NOMBRE      │   │ HERMES CREA RAMA             │
+                                     │                          │   │                              │
+                                     │ Ejemplo:                 │   │ git status                   │
+                                     │ "Mejor usa:              │   │ git checkout -b              │
+                                     │ feature/cierre-propinas" │   │ feature/[nombre-feature]     │
+                                     └─────────────┬────────────┘   └──────────────┬───────────────┘
+                                                   │                               ▼
+                                                   └──────── vuelve a proponer     Continúa a OpenSpec
                                                     ▼
 ┌──────────────────────────────────────────┐
 │ 14. HERMES CREA OPENSPEC                 │
