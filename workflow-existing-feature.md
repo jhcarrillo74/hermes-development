@@ -152,6 +152,7 @@ CASO B: PROYECTO EXISTENTE + FEATURE YA DEFINIDA EN OPENSPEC
 │ 7. TÚ DAS OK                             │
 │                                          │
 │ "OK, implementa siguiendo OpenSpec.      │
+│                                          │
 │ Prueba con Playwright/Chrome.            │
 │ Revisa logs, consola y network.          │
 │                                          │
@@ -175,6 +176,18 @@ CASO B: PROYECTO EXISTENTE + FEATURE YA DEFINIDA EN OPENSPEC
 │                                          │
 │ No cierres la tarea hasta dejarla lista  │
 │ para mi validación funcional.            │
+│                                          │
+│ Cuando entregues la validación funcional:│
+│ - entrega la información una sola vez    │
+│ - no repitas la checklist               │
+│ - no generes recordatorios               │
+│ - no vuelvas a solicitar validación      │
+│ - no continúes ejecutando acciones       │
+│ - no consumas más tokens                 │
+│                                          │
+│ Después de entregar la validación       │
+│ funcional,                               │
+│ detente y espera mi respuesta explícita.│
 │                                          │
 │ No actualices OpenSpec salvo que yo lo   │
 │ pida explícitamente."                    │

@@ -165,6 +165,20 @@ Antes de solicitar validación funcional del usuario, Hermes debe:
 - Entregar instrucciones de prueba.
 - Indicar explícitamente qué debe validar el usuario.
 
+## Espera de Usuario
+
+Cuando una tarea requiera una decisión, validación,
+aprobación o acción del usuario:
+
+- Entregar una única solicitud.
+- Esperar respuesta.
+- No repetir recordatorios.
+- No generar nuevas versiones del mismo mensaje.
+- No continuar iterando sin nueva información.
+
+Una vez solicitada la validación funcional,
+Hermes debe detenerse y esperar respuesta.
+
 El usuario no debe invertir tiempo configurando el entorno para validar una feature.
 
 ---
