@@ -165,6 +165,26 @@ Antes de solicitar validación funcional del usuario, Hermes debe:
 - Entregar instrucciones de prueba.
 - Indicar explícitamente qué debe validar el usuario.
 
+## Rol de validación funcional
+
+Antes de solicitar validación funcional, Hermes debe definir explícitamente:
+
+- el rol que valida la feature
+- el perfil de uso esperado
+- las acciones concretas que debe ejecutar ese rol
+
+Ejemplos:
+
+- cliente
+- garzón / operador
+- administrador
+
+Si la feature aplica a más de un rol, Hermes debe indicar:
+
+- qué debe validar cada uno
+- en qué orden
+- si la validación es parcial o completa por rol
+
 ## Espera de Usuario
 
 Cuando una tarea requiera una decisión, validación,
