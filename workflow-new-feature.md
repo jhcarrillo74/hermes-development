@@ -54,6 +54,8 @@
 │ Hazme las preguntas necesarias para      │
 │ comprender completamente la necesidad.   │
 │                                          │
+│ Hazlas de a una y con alternativas.      │
+│                                          │
 │ Si crees que ya tienes información       │
 │ suficiente, solicita autorización para   │
 │ generar el resumen funcional.            │
