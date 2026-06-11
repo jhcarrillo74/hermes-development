@@ -23,11 +23,9 @@ Usuario = Aprueba funcionalmente.
 Inicializa el proyecto.
 
 Lee:
-- ~/AI-Standards/hermes-master.md
-- openspec/product.md
-- openspec/architecture.md
-- openspec/decisions.md
-- openspec/features/[nombre-feature].md
+- hermes-master.md
+- archivos de OpenSpec relevantes para la feature
+- archivo de la feature en OpenSpec
 
 Revisa Git:
 - git status
@@ -103,11 +101,10 @@ CASO B: PROYECTO EXISTENTE + FEATURE YA DEFINIDA EN OPENSPEC
 ┌──────────────────────────────────────────┐
 │ 3. HERMES LEE ARCHIVOS                   │
 │                                          │
-│ ~/AI-Standards/hermes-master.md          │
-│ openspec/product.md                      │
-│ openspec/architecture.md                 │
-│ openspec/decisions.md                    │
-│ openspec/features/[feature].md           │
+│ hermes-master.md                         │
+│ archivos de OpenSpec relevantes          │
+│ para la feature                          │
+│ archivo de la feature en OpenSpec        │
 │                                          │
 │ Nota: OpenSpec define qué construir.     │
 │ No se usa para registrar avance.         │
