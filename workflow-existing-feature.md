@@ -154,8 +154,30 @@ CASO B: PROYECTO EXISTENTE + FEATURE YA DEFINIDA EN OPENSPEC
 │ "OK, implementa siguiendo OpenSpec.      │
 │ Prueba con Playwright/Chrome.            │
 │ Revisa logs, consola y network.          │
-│ No cierres hasta dejarlo listo           │
-│ para validación funcional."              │
+│                                          │
+│ Debes revisar y reportar evidencia de:   │
+│ - logs de terminal                       │
+│ - consola del navegador                  │
+│ - network requests                       │
+│ - errores de API                         │
+│ - resultado de Playwright                │
+│                                          │
+│ Corrige cualquier error encontrado.      │
+│                                          │
+│ Antes de solicitar validación funcional: │
+│ - deja el entorno operativo              │
+│ - deja el servidor levantado             │
+│ - entrega URL de acceso                  │
+│ - entrega credenciales de prueba         │
+│ - entrega datos de prueba necesarios     │
+│ - indica exactamente qué debo probar     │
+│ - indica limitaciones conocidas          │
+│                                          │
+│ No cierres la tarea hasta dejarla lista  │
+│ para mi validación funcional.            │
+│                                          │
+│ No actualices OpenSpec salvo que yo lo   │
+│ pida explícitamente."                    │
 └────────────────────┬─────────────────────┘
                      ▼
 ┌──────────────────────────────────────────┐
