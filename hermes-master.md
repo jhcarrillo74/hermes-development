@@ -153,6 +153,20 @@ Usuario:
 - Validación funcional.
 - Aprobación final.
 
+## Preparación para Validación Funcional
+
+Antes de solicitar validación funcional del usuario, Hermes debe:
+
+- Validar técnicamente la solución.
+- Corregir errores encontrados.
+- Levantar el entorno necesario.
+- Entregar credenciales de prueba.
+- Entregar datos de prueba.
+- Entregar instrucciones de prueba.
+- Indicar explícitamente qué debe validar el usuario.
+
+El usuario no debe invertir tiempo configurando el entorno para validar una feature.
+
 ---
 
 # Cierre
