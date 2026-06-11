@@ -202,18 +202,49 @@ CASO B: PROYECTO EXISTENTE + FEATURE YA DEFINIDA EN OPENSPEC
           │                        │ - errores encontrados                │
           │                        │ - correcciones realizadas            │
           │                        │                                      │
-          │                        │ Estado: listo para validación        │
-          │                        │ funcional del usuario.                │
-          │                        └──────────────────┬───────────────────┘
-          │                                           ▼
-          └──────────────► vuelve a 9       ┌────────────────────────────┐
-                                            │ 11. TÚ PRUEBAS             │
-                                            │                            │
-                                            │ Validación funcional       │
-                                            │ Revisión visual            │
-                                            │ Casos reales de negocio    │
-                                            │ Casos borde                │
-                                            └──────────────┬─────────────┘
+          │ Estado: listo para validación        │
+          │ funcional del usuario.                │
+          └──────────────────┬───────────────────┘
+                              ▼
+          ┌────────────────────────────────────────────┐
+          │ 10C. HERMES PREPARA VALIDACIÓN USUARIO     │
+          │                                            │
+          │ Antes de entregar, Hermes debe dejar       │
+          │ todo listo para pruebas funcionales.       │
+          │                                            │
+          │ Debe entregar:                             │
+          │                                            │
+          │ ✓ Servidor levantado                       │
+          │ ✓ URL de acceso                            │
+          │ ✓ Credenciales de prueba                   │
+          │ ✓ Datos de prueba necesarios               │
+          │ ✓ Casos de prueba sugeridos                │
+          │ ✓ Qué probar específicamente               │
+          │ ✓ Limitaciones conocidas                   │
+          │                                            │
+          │ Ejemplo:                                   │
+          │                                            │
+          │ URL: http://localhost:3000                 │
+          │ Usuario: test@empresa.com                  │
+          │ Password: Test123!                         │
+          │                                            │
+          │ Probar:                                    │
+          │ 1. Crear pedido                            │
+          │ 2. Aplicar propina                         │
+          │ 3. Emitir boleta                           │
+          │ 4. Revisar total calculado                 │
+          │                                            │
+          │ Estado: listo para validación funcional.   │
+          └────────────────────┬───────────────────────┘
+                               ▼
+          ┌────────────────────────────┐
+          │ 11. TÚ PRUEBAS             │
+          │                            │
+          │ Validación funcional       │
+          │ Revisión visual            │
+          │ Casos reales de negocio    │
+          │ Casos borde                │
+          └──────────────┬─────────────┘
                                                            ▼
                                                  ┌────────────────────┐
                                                  │ ¿Tú apruebas?      │
